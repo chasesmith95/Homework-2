@@ -33,6 +33,12 @@ contract('BettingTestGeneric', function(accounts) {
 	});
 });
 
+//Test Make Bet
+	//Single
+	//Other
+
+//Test
+
 contract('BettingTestOracleSet', function(accounts) {
 	const null_address = '0x0000000000000000000000000000000000000000';
 	const args = {_owner: accounts[1], _oracle: accounts[2],
